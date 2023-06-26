@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Cadastro</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body style="background-color: rgb(77, 77, 77); color: aliceblue;">
+        <div style="display: inline;">
+            <a href="index.html" style="color: aliceblue;float: right;">Voltar para página principal</a>
+        </div>
+        <h1>Cadastro</h1>
+        <hr>
+        <form>
+            <br><br>Nome Completo:<br>
+            <br><input type="text" name="nome"><br>
+            <br>Data de Nascimento:<br>
+            <br><input type="text" name="Data"><br>
+            <br><input type="radio" name="sexo" value="m">Masculino<br>
+            <br><input type="radio" name="sexo" value="f">Feminino<br>
+            <br>Estado:<br>
+            <br><select name="estado">
+                <option value="rj">RJ</option>
+                <option value="sp">SP</option>
+                <option value="rs">RS</option>
+                <option value="sc">SC</option>
+                <option value="pr">PR</option>
+                <option value="mg">MG</option>
+            </select><br><br>
+            <hr>
+            <br>Nome de Usuário:<br>
+            <br><input type="text" name="login"><br>
+            <br>Email:<br>
+            <br><input type="text" name="email"><br>
+            <br>Senha:<br>
+            <br><input type="password" name="senha"><br>
+            <br>Confirmar Senha:<br>
+            <br><input type="password" name="confirmasenha"><br>
+            <br><input type="checkbox" name="aceitatermos">
+            Aceita os termos de condição de uso.<br>
+            <br><input type="submit" value="Cadastrar">
+        </form>
+    </body>
+</html>
