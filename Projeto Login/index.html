@@ -3,7 +3,7 @@
 <html>
 
     <head>
-        <title>Cadastro</title>
+        <title>Página Principal</title>
         <meta charset="utf-8">
         <style type="text/css">
             body {
@@ -87,41 +87,20 @@
     <body>
         <header id="header">
             <div id="divHeader">
-                <h2 id="h2DivHeader"><a id="cadastrarse" href="index.html" style="color: aliceblue;float: right;">Voltar para página principal</a></h2>
+                <h2 id="h2DivHeader"><a id="cadastrarse" href="cadastro.html">Cadastrar-se</a></h2>
             </div>
         </header>
         <div id="divLogin">
-            <h1>Cadastro</h1>
-            <hr>
             <form>
-                <br><br>Nome Completo:<br>
-                <br><input class="inputText" type="text" name="nome"><br>
-                <br>Data de Nascimento:<br>
-                <br><input class="inputText" type="text" name="Data"><br>
-                <br><input type="radio" name="sexo" value="m">Masculino<br>
-                <br><input type="radio" name="sexo" value="f">Feminino<br>
-                <br>Estado:<br>
-                <br><select class="inputText" style="text-align: center;" name="estado">
-                    <option value="rj">RJ</option>
-                    <option value="sp">SP</option>
-                    <option value="rs">RS</option>
-                    <option value="sc">SC</option>
-                    <option value="pr">PR</option>
-                    <option value="mg">MG</option>
-                </select><br><br>
-                <hr>
-                <br>Nome de Usuário:<br>
-                <br><input class="inputText" type="text" name="login"><br>
-                <br>Email:<br>
-                <br><input class="inputText" type="text" name="email"><br>
-                <br>Senha:<br>
-                <br><input class="inputText" type="password" name="senha"><br>
-                <br>Confirmar Senha:<br>
-                <br><input class="inputText" type="password" name="confirmasenha"><br>
-                <br><input type="checkbox" name="aceitatermos">
-                Aceita os termos de condição de uso.<br>
-                <br><input class="buttons" type="submit" value="Cadastrar">
+                <h4 id="login" class="loginEstilizado">Login:</h4>
+                <input class="inputText" type="text" name="login"><br>
+                <h4 class="loginEstilizado">Senha:</h4>
+                <input class="inputText" type="password" name="senha"><br>
+                <br><input class="buttons" type="submit" value="Logar">
             </form>
+
+            <br><br><a href="cadastro.html">Ainda não possuo uma conta.</a>
         </div>
     </body>
+
 </html>
